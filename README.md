@@ -8,4 +8,4 @@
 
 - on mobile phone screen
 
-<img src="./images/index-01-small-screen.png" width='320' height='568'/>
+<img src="./images/index-01-small-screen.png" width='320' height='400'/>
