@@ -1,4 +1,4 @@
-# This is some basic responsive web ui 
+# This repo represents some basic responsive web ui 
 
 1. with html and css ([link here](https://xs-hua.github.io/responsive-webui/index-01.html))
 
