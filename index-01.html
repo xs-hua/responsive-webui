@@ -3,83 +3,33 @@
 <head>
     <!-- set the visible area of page  -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-    .menu {
-      float: left;
-      width: 20%;
-    }
-    .menuitem {
-      padding: 8px;
-      margin-top: 7px;
-      border-bottom: 1px solid #f1f1f1;
-    }
-    .main {
-      float: left;
-      width: 60%;
-      padding: 0 20px;
-      overflow: hidden;
-    }
-    .right {
-      background-color: lightblue;
-      float: left;
-      width: 20%;
-      padding: 10px 15px;
-      margin-top: 7px;
-    }
-    @media only screen and (max-width:800px) {
-    /* For tablets: */
-    .main {
-      width: 80%;
-      padding: 0;
-    }
-    .right {
-      width: 100%;
-    }
-    }
-    @media only screen and (max-width:500px) {
-      /* For mobile phones: */
-    .menu, .main, .right {
-      width: 100%;
-    }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/css-01.css">
+  <title>Responsive-ui</title>
 </head>
-<body style="font-family:Verdana;">
-
-  <div style="background-color:#f1f1f1;padding:15px;">
+<body>
+  <!-- heading -->
+  <div class="head">
     <h1>Spandauer Forst</h1>
     <h3>Resize the browser window to see responsive reflection</h3>
   </div>
 
-  <div style="overflow:auto">
-    <div class="menu">
-      <div class="menuitem">Location</div>
-      <div class="menuitem">History</div>
-      <div class="menuitem">Gallery</div>
-      <div class="menuitem">Contact</div>
+  <div class="content">
+    <div class="left">
+      <div class="menuitem"><a href="#">Location</a></div>
+      <div class="menuitem selected-menuitem"><a href="#">History</a><a class="menuitem-button" href="#">&#9776;</a></div>
+      <div class="menuitem"><a href="#">Gallery</a></div>
+      <div class="menuitem"><a href="#">Contact</a></div>
     </div>
   
-    <div class="main">
-      <h2>XXX</h2>
-      <p>xxxxxxxxxxxxxxxx</p>
-      <img src="images/spandauer-forst-wildschwein-small.jpg" style="width:100%">
-    </div>
-  
-    <div class="right">
-      <h2>XXX</h2>
-      <p>xxxxx</p>
-      <h2>XXX</h2>
-      <p>xxxxx</p>
-      <h2>XXX</h2>
-      <p>xxxxx</p>
+    <div class="middle">
+      <h2>History</h2>
+      <p>Der Spandauer Forst ist mit 1347 Hektar Gesamtfläche eines der größten Waldgebiete in Berlin. Er liegt an der nordwestlichen Stadtgrenze im Ortsteil Hakenfelde des Bezirks Spandau. Drei Teilbereiche im und am Spandauer Forst sind als Naturschutzgebiet ausgewiesen, zudem ist der gesamte Wald als Landschaftsschutzgebiet unter Schutz gestellt und als Fauna-Flora-Habitat-Gebiet sowie Vogelschutzgebiet teil des Natura-2000-Netzes.</p>
+      
     </div>
   </div>
   
-  
-  <div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"></div>
+  <div class="tail"></div>
 
   </body>
 </html>
