@@ -1,6 +1,6 @@
 # This is some basic responsive web ui 
 
-1. with html and css ([link here](https://xs-hua.github.io/RESPONSIVE-WEB-UI/index-01.html))
+1. with html and css ([link here](https://xs-hua.github.io/responsive-webui/index-01.html))
 
 - on desktop screen
 
