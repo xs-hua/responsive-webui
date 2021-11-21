@@ -11,9 +11,12 @@
 <img src="./images/index-01-small-screen.png" width='320' height='400'/>
 
 
-2. with grid system of Bootstrap framework
+2. with grid system of Bootstrap framework ([demo click here](https://xs-hua.github.io/responsive-webui/index-02.html))
 
-- on big screen
+- on desktop screen
 
+![normal screen](./images/index-02-normal-screen.png)
 
-- on small screen
+- on mobile phone screen
+
+<img src="./images/index-02-small-screen.png" width='320' height='400'/>
