@@ -9,3 +9,11 @@
 - on mobile phone screen
 
 <img src="./images/index-01-small-screen.png" width='320' height='400'/>
+
+
+2. with grid system of Bootstrap framework
+
+- on big screen
+
+
+- on small screen
