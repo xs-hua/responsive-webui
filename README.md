@@ -19,4 +19,4 @@
 
 - on mobile phone screen
 
-<img src="./images/index-02-small-screen.png" width='320' height='400'/>
+<img src="./images/index-02-small-screen.png" width='250' height='300'/>
